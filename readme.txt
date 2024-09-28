@@ -4,4 +4,4 @@ I have done this in two dedicated MS Word documents and this code acts as addend
 of code.
 
 The package com.bright_ascension.original contains the code given, with changes that allow the code to compile.
-The package com.bright_ascension.proposed, and it's associated test package are the changes I have made.
+The package com.bright_ascension.proposed, and its associated test package are the changes I have made.
