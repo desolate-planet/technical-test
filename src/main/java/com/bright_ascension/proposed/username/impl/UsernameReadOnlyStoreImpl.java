@@ -17,8 +17,6 @@ public class UsernameReadOnlyStoreImpl implements UsernameStore {
 
     private String theName;
 
-    private final int cachedNameLength;
-
     /***
      * Constructor for initializing instances of UsernameRepositoryImpl.
      * @param theName the initial username to store.
@@ -33,7 +31,6 @@ public class UsernameReadOnlyStoreImpl implements UsernameStore {
             logger.warn("A null username was provided, using default");
             this.theName = UsernameStore.DEFAULT_NAME;
         }
-        cachedNameLength = this.theName.length();
     }
 
     /**
