@@ -8,6 +8,15 @@ public interface UsernameStore {
 
     String DEFAULT_NAME = "Default name";
 
+    /**
+     * Sets the username
+     * @param theName the string value for the username
+     */
     void setName(String theName);
+
+    /**
+     * Returns the username
+     * @return a string value representing the username.
+     */
     String getName();
 }

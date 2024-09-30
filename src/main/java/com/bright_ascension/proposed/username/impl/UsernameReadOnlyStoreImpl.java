@@ -44,10 +44,6 @@ public class UsernameReadOnlyStoreImpl implements UsernameStore {
         throw new UnsupportedOperationException("Method not supported in this implementation");
     }
 
-    /**
-     * Returns the currently stored username.
-     * @return a string representing the username.
-     */
     @Override
     public String getName() {
         return theName;
